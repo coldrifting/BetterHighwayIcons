@@ -57,10 +57,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="UI\Highway3Lane.png" />
-    <EmbeddedResource Include="UI\Highway3LaneBarrier.png" />
-    <EmbeddedResource Include="UI\Highway4LaneBarrier.png" />
-    <EmbeddedResource Include="UI\HighwayRamp.png" />
+    <EmbeddedResource Include="Resources\Highway3Lane.png" />
+    <EmbeddedResource Include="Resources\Highway3LaneBarrier.png" />
+    <EmbeddedResource Include="Resources\Highway4LaneBarrier.png" />
+    <EmbeddedResource Include="Resources\HighwayRamp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

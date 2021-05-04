@@ -31,7 +31,7 @@ namespace BetterHighwayIcons
             try
             {
                 Assembly myAssembly = Assembly.GetExecutingAssembly();
-                Stream myStream = myAssembly.GetManifestResourceStream("BetterHighwayIcons.UI." + resourceName);
+                Stream myStream = myAssembly.GetManifestResourceStream("BetterHighwayIcons.Resources." + resourceName);
 
                 Texture2D texture = new Texture2D(width, height, TextureFormat.ARGB32, false);
                 texture.LoadImage(ReadToEnd(myStream));
